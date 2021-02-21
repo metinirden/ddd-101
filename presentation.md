@@ -23,7 +23,7 @@ Domain-Driver Design (**DDD**) kompleks domain problemlerine sahip yazılımlar�
 DDD hem teknik hem de iş alanlarında karmaşıklığı sahip yazılımları üreten ekiplerin başarıya odaklanması için bazı pattern ve prensiplerden oluşur. 
 
 
-![bg contain right:28%](assets/ec-ec-ac.jpg)
+![bg contain right:28%](assets/ec-ac.jpg)
 
 ---
 
