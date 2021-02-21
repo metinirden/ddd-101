@@ -51,7 +51,7 @@ Yeni use case'ler domain'e dahil oldukça, geçerli kalabilmesi için sürekli o
 
 ![bg contain left:60%](assets/domain-model.jpg)
 
-* **İlk İyi Fikrinizde Durmayın.**
+- **İlk İyi Fikrinizde Durmayın.**
 * **Her yeni problem ile birlikte modelinizi sorgulayın.**
 * **Gerçek Hayatı Modellemeyin.**
 
