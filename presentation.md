@@ -1,6 +1,6 @@
 ---
 marp: true
-title: DDD-101
+title: Domain Driven Design 101
 paginate: false
 ---
 
@@ -116,31 +116,41 @@ Ubiquitous Language modelin kod implementasyonu yapılırken class isimlerinde, 
 
 #### DDD'nin Göze Çarpan Noktaları
 
-To build effective and maintainable software for complex domains you need a dedicated team of software experts working in a iterative development cycle. But as Eric Evans observed in his book Domain-Driven Design, technical practice and expertise will only get you so far. Without a focus on the most important parts of the problem domain, an environment where you can collaborate with domain experts, an obsession with a ubiquitous language and the understanding that concepts need to be understood in context, you may end up with a ball of mud when juggling technical and domain complexity.
+Kompleks domain'lere sahip yazılımları efektif ve bakım yapılabilir şekilde ortaya koyabilmek için iteratif döngülerle çalışan kendini adamış takımlara ihtiyaç vardır. Eric Evans'ın gözlemlemiş olduğu üzere teknik yetkinlikler size sadece bir yere kadar götürebilir. Problem domain'ine odaklanılmayan, domain expert'leri ile çalışmayan yada ubiquitous language kullanımına dikkat edilmeyen  bir ortam sizi "big ball of mud" modeline sürükleyebilir.
 
 ---
 
-#### FOCUS EFFORT WHERE IT MATTERS
+#### Önemli Noktalara Efor Harcayın
 
-Not all of a system will be well designed and often, it isn’t cost effective to strive for this. Instead identify the core domain and the core complexity and focus effort there. The core domain is the reason you are writing the software in the first place. DDD is expensive and time consuming so use it where it matters. Sometimes it’s better just to get on and code, rather than looking for complexity where there is none. Not all projects will have suitable complexity that warrants the effort of DDD. If you have an appreciation for the problem space and an empathy for your business you will be in a better position to judge the opportunity cost as you align effort.
+![bg contain left:15%](assets/ddd-salient-1.jpg)
 
----
-
-#### DESIGN A MODEL WITHIN A BOUNDED CONTEXT
-
-When creating a model for a large domain it can lose explicitness if there are multiple teams involved, where different language is used or where concepts mean different things in different contexts. Therefore, just as you distill the problem domain to reveal multiple sub domains, you must also decompose the solution space and develop models within explicit boundaries. Context is everything; context and isolation ensure the integrity of your code. It reduces cognitive load and enables multiple teams to work autonomously.
+Her tasarladığınız sistem iyi tasarlanmak zorunda değildir ki sürekli bunu istemek bütçeniz için iyi olmaz. Bunun yerine core domain'inizi tanımlayıp eforunuzu buraya harcamak daha mantıklı olacaktır. Zaten ortaya çıkaracağınız yazılıma yol açan şey core domain'dir.
+DDD uygulaması zor ve zaman alıcı bir yöntemdir bu yüzden bazen sadece kodlamaya başlamak, problem olmayan bir yerde problem aramaya çalışmaktan iyidir.
 
 ---
 
-#### BIND EXPRESSIONS OF THE MODEL USING A UBIQUITOUS LANGUAGE
+#### Bounded Context İçinde Modelleme
 
-Software projects fail due to poor communication coupled with the overhead of translation between domain and technical terminology. A Ubiquitous Language enables software experts to bind the code model to other expressions of the domain model, such as conversations and diagrams with domain experts, making for more effective communication. Better communication gives you an increased chance to reveal deeper insights in the model. This is why it is vital that the code model is expressed explicitly using the Ubiquitous Language and why it’s important to obsess over language. And remember, a language should be specific to a bounded context.
+![bg contain left:15%](assets/ddd-salient-2.jpg)
+
+Büyük bir domain için modelleri oluştururken, eğer birden fazla ekip varsa, kullanılan dil açıklığını kaybedebilir. Bu yüzden domain ilk olarak context'lere ayrılıp, modelleri bunun üstünden geliştirmelisiniz. Bu noktada context herşeydir; context ve izolasyon kodunuzun bütünlüğünü sağlar ve birden fazla ekibin aynı anda çalışabilmesini sağlar.
 
 ---
 
-#### COLLABORATE IN LEARNING AND MODELLING
+#### Modelin Kendisini Ubiquitous Language ile İfade Etmesi
 
-Don’t underestimate the power of collaborative modelling and learning between domain experts and software experts. Knowledge crunching is an ongoing process; collaboration and engagement with the business should not be constrained to the start of a project. Deep insights and breakthroughs only happen after living with the problem through many development iterations. Facilitation patterns to help crunch domain knowledge are extremely important - get good at mining for information and engaging with the business! DDD is the process of learning, refining, experimenting, and exploring in the quest to produce an effective model. It is often said that working software is simply an artifact of learning.
+![bg contain left:15%](assets/ddd-salient-3.jpg)
+
+Yazılım projeleri kötü iletişim ile birlikte, domain ile teknik terminoloji arasındaki dönüşüm maliyeti yüzünden başarısız sonuçlanabilir.
+Ubiquitous Language, development ekibinin kod modelini, domain expert'leri ile yapılan konuşmalar ve diyagramlar gibi ifade şekillerine bağlamasını sağlayarak daha etkili bir iletişim sağlar. Bu nedenle, kod modelinin Ubiquitous Language kullanılarak açıkça ifade edilmesi hayati önem taşımaktadır ve Ubiquitous Language'e takıntılı olmak oldukça önemlidir.
+
+---
+
+#### Modelleme ve Gelişimde İşbirliği
+
+![bg contain left:15%](assets/ddd-salient-4.jpg)
+
+Yazılımcılar ile domain expert'lerinin sürekli olarak iş birliği içinde olması ile ortaya çıkan öğrenmenin göz ardı edilmemelidir. Bilginin yoğun şekilde paylaşılması sürekli olarak devam edecek bir süreçtir, bir projenin başlaması gibi olaylar ile sınırlı kalmamalıdır. Derin bilgi hakimiyeti, problemli domain üstünde ancak sürekli olarak geliştirme döngüsü sonucunda elde dilebilir. "Çalışan yazılım genellikle öğrenmenin çıktısıdır" şeklinde de söylenebilir.
 
 ---
 
