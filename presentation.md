@@ -108,6 +108,16 @@ Ubiquitous Language modelin kod implementasyonu yapılırken class isimlerinde, 
 
 #### Karışık ve Büyük Modelleri Bounded Context'lere Ayırın
 
+Zamanla modeliniz bütünlüğünü ve kendini açıkça ifade edebilme özelliğini kaybedebilir, kompleksitesi artar ve üzerinde çalışan takımların kullandığı dil ifadesizleşebilir. Bu durumda, büyük ve kompleks modeller, bir modelin belli bir bağlamda anlaşılabileceği sınırlarda bounded context'lere ayrılmalıdır. Bunu yapamadığınız takdirde ise, yazılımınızın "big ball of mud" modeline dönmemesi ihtimali çok düşüktür.
+
+---
+
+![bg contain](assets/context-divide-single.jpg)
+
+---
+
+![bg contain](assets/context-divide-multiple.jpg)
+
 ---
 
 #### Bounded Contextleri Bir Araya Getirirek Uygulamaları Oluşturun
