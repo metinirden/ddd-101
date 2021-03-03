@@ -81,7 +81,9 @@ Ubiquitous Language, teknik ve domain çeviri maliyetini en aza indirir ve tüm 
 
 ---
 
-<!-- TODO: Öncesinde modeli implement edin? -->
+#### Modelinizi Nasıl İmplemente Edersiniz?
+
+---
 
 #### Kodu Modeli Açıkça İfade Eden Şekilde Yazın
 
@@ -117,10 +119,6 @@ Zamanla modeliniz bütünlüğünü ve kendini açıkça ifade edebilme özelli�
 ---
 
 ![bg contain](assets/context-divide-multiple.jpg)
-
----
-
-#### Bounded Contextleri Bir Araya Getirirek Uygulamaları Oluşturun
 
 ---
 
