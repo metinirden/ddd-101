@@ -19,7 +19,7 @@ Metin İrden
 
 ---
 
-Domain-Driver Design (**DDD**) kompleks domain problemlerine sahip yazılımları geliştirmek için bir dil ve domain merkezli bir yaklaşımdır. DDD terimi Eric Evans tarafından “**Domain-Driven Design: Tackling Complexity in the Heart of Software**” kitabında ortaya konmuştur.
+Domain-Driven Design (**DDD**) kompleks domain problemlerine sahip yazılımları geliştirmek için bir dil ve domain merkezli bir yaklaşımdır. DDD terimi Eric Evans tarafından “**Domain-Driven Design: Tackling Complexity in the Heart of Software**” kitabında ortaya konmuştur.
 
 DDD hem teknik hem de iş alanlarında karmaşıklığı sahip yazılımları üreten ekiplerin başarıya odaklanması için bazı pattern ve prensiplerden oluşur. 
 
@@ -39,8 +39,6 @@ Yazılımın sahip olduğu kompleksite, domain'den katılsal olarak gelen komple
 Bir domain modeli gerçekliği değil, bir perspektifi ifade eder. Bu perspektif ise çözülmek istenen problemdir. Bu modelin çeşitli ifadeleri olan kod, diyagram, döküman ise aynı dil ile bağlıdır.
 
 ---
-
-Kullanışlılığı, problemleri çözmek için karmaşık mantığı ve ilkelerini temsil etmesi becerisinden gelir.
 
 Model, yalnızca yaratılan uygulama bağlamındaki sorunları çözmek için ilgili olan detayları içerir.
 
@@ -81,10 +79,6 @@ Ubiquitous Language, teknik ve domain çeviri maliyetini en aza indirir ve tüm 
 
 ---
 
-#### Modelinizi Nasıl İmplemente Edersiniz?
-
----
-
 #### Kodu Modeli Açıkça İfade Eden Şekilde Yazın
 
 Ubiquitous Language modelin kod implementasyonu yapılırken class isimlerinde, property'lerde ve metod isimlendirmelerinde aynı şekilde kullanılmalıdır. DDD'nin sürekli gelişmesi modeli bu ortak dili kullanmaktan geçmektedir.
@@ -119,6 +113,14 @@ Zamanla modeliniz bütünlüğünü ve kendini açıkça ifade edebilme özelli�
 ---
 
 ![bg contain](assets/context-divide-multiple.jpg)
+
+---
+
+![bg contain](assets/context-types.jpg)
+
+---
+
+#### DDD'nin Avantaj ve Dezavantajları
 
 ---
 
