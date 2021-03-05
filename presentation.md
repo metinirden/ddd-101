@@ -120,7 +120,20 @@ Zamanla modeliniz bütünlüğünü ve kendini açıkça ifade edebilme özelli�
 
 ---
 
-#### DDD'nin Avantaj ve Dezavantajları
+#### DDD'nin Avantaj ve Dezavantajları (SOA ve MS için)
+
+SOA ve MS sistemlerin temel farklılıklarından bahsedersek ilk;
+
+* SOA'da daha çok paylaşmayı uygularken, MS olabildiğince daha az paylaşıma yönelir.
+* SOA fonksiyonaliteyi olabildiğince tekrar kullanmaktan yanadır. MS'de ise bu durum bounded contextler ile ayrıldığı için tercih edilmez.
+
+DDD ve SOA birlikte uyumlu olabilir. Genellikle servis şemanız/sınırlamalarınız, bounded contextleriniz ile eşleşir. SOA kullanarak contextler arası iletişimi tasarlarsınız yarar. SOA mimari yaklaşımında servisinizin domain'ini nasıl tasarlayacağınıza dair pek bir yönlendirme yoktur ama DDD bu konuyu çözmek için kullanılabilir.
+
+---
+
+Domain'in iyi anlaşılması asla kötü bir şey değildir. Dahası, çoğu entity için ortak bir veri modeli oluşturmayı başarırsanız, standart servisler oluşturabileceksiniz. Böylece veri mapping'i ve dönüştürme ihtiyacını ortadan kaldıracaksınız.
+
+MS tarafı ise, çoğu zaman "fine grained" olarak tanımlanan ve belli bir bounded contextin içinde bile parçalama yaparak oluşturulur.
 
 ---
 
