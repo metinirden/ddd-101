@@ -124,8 +124,8 @@ Zamanla modeliniz bütünlüğünü ve kendini açıkça ifade edebilme özelli�
 
 SOA ve MS sistemlerin temel farklılıklarından bahsedersek ilk;
 
-* SOA'da daha çok paylaşmayı uygularken, MS olabildiğince daha az paylaşıma yönelir.
-* SOA fonksiyonaliteyi olabildiğince tekrar kullanmaktan yanadır. MS'de ise bu durum bounded contextler ile ayrıldığı için tercih edilmez.
+- SOA'da daha çok paylaşmayı uygularken, MS olabildiğince daha az paylaşıma yönelir.
+- SOA fonksiyonaliteyi olabildiğince tekrar kullanmaktan yanadır. MS'de ise bu durum bounded contextler ile ayrıldığı için tercih edilmez.
 
 DDD ve SOA birlikte uyumlu olabilir. Genellikle servis şemanız/sınırlamalarınız, bounded contextleriniz ile eşleşir. SOA kullanarak contextler arası iletişimi tasarlarsınız yarar. SOA mimari yaklaşımında servisinizin domain'ini nasıl tasarlayacağınıza dair pek bir yönlendirme yoktur ama DDD bu konuyu çözmek için kullanılabilir.
 
