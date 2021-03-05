@@ -5,7 +5,7 @@ paginate: false
 ---
 
 # **Domain Driven Design 101**
-Metin İrden
+Metin İrden, Mustafa Karataş
 ![bg contain opacity:50% blur:6px](assets/logo.jpg)
 
 ---
